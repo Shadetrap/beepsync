@@ -4,10 +4,10 @@ var synth3 = new beepbox.Synth("");
 var synth4 = new beepbox.Synth("");
 //------------SLIDERS-------------
 var volumeVar = document.getElementById("volume");
-var output1 = document.getElementById("volumeOut");
-output1.innerHTML = volumeVar.value;
+//var output1 = document.getElementById("volumeOut");
+//output1.innerHTML = volumeVar.value;
 volumeVar.oninput = function() {
-	output1.innerHTML = this.value;
+	//output1.innerHTML = this.value;
 	synth.volume = parseInt(volumeVar.value);
 	synth2.volume = parseInt(volumeVar.value);
 	synth3.volume = parseInt(volumeVar.value);
