@@ -1,7 +1,7 @@
-var synth = new beepbox.Synth("5n31s0kbl00e03t7m0a7g0fj7i0r1w1111f0000d1111c0000h0000v0000o3210b4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4p16000000");
-var synth2 = new beepbox.Synth("5n31s0kbl00e03t7m0a7g0fj7i0r1w1111f0000d1111c0000h0000v0000o3210b4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4p16000000");
-var synth3 = new beepbox.Synth("5n31s0kbl00e03t7m0a7g0fj7i0r1w1111f0000d1111c0000h0000v0000o3210b4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4p16000000");
-var synth4 = new beepbox.Synth("5n31s0kbl00e03t7m0a7g0fj7i0r1w1111f0000d1111c0000h0000v0000o3210b4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4h4p16000000");
+var synth = new beepbox.Synth("");
+var synth2 = new beepbox.Synth("");
+var synth3 = new beepbox.Synth("");
+var synth4 = new beepbox.Synth("");
 //------------SLIDERS-------------
 var volumeVar = document.getElementById("volume");
 var output1 = document.getElementById("volumeOut");
