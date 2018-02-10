@@ -52,6 +52,6 @@ form {margin-left:20px;}
 .marginauto{
   margin: 0 auto;
   text-align: center;
-clear:float;
+clear:both;
 }
 h1{color:#9988ff;}
