@@ -8,11 +8,11 @@ var volumeVar = document.getElementById("volume");
 //output1.innerHTML = volumeVar.value;
 //volumeVar.oninput = function() {
 	//output1.innerHTML = this.value;
-	synth.volume = parseInt(volumeVar.value);
-	synth2.volume = parseInt(volumeVar.value);
-	synth3.volume = parseInt(volumeVar.value);
-	synth4.volume = parseInt(volumeVar.value);
-};
+	//synth.volume = parseInt(volumeVar.value);
+	//synth2.volume = parseInt(volumeVar.value);
+	//synth3.volume = parseInt(volumeVar.value);
+	//synth4.volume = parseInt(volumeVar.value);
+//};
 var tempoVar = document.getElementById("tempo");
 var output2 = document.getElementById("tempoOut");
 output2.innerHTML = tempoVar.value;
