@@ -1,0 +1,34 @@
+<br/>
+<div class="box">
+	<button onclick="playSound(this)">play</button>
+	<button onclick="stopSound(this)" class="space2">stop</button><br/>
+	<form><input autofocus autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 1" id="userInput" oninput="beepSend()" class="space2"><br></form>
+	<form><input autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 2" id="userInput2" oninput="beepSend2()"><br></form>
+	<form><input autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 3" id="userInput3" oninput="beepSend3()"><br></form>
+	<form><input autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 4" id="userInput4" oninput="beepSend4()"class="space"><br></form>
+
+	<button onclick="rewindSound(this)">rewind</button>
+	<button onclick="forwardSound(this)">forward</button><br/>
+	<button onclick="pauseSound(this)">pause</button>
+	<button onclick="restartSound(this)">refresh</button><br/>
+</div>
+<div class="box" id=hai>
+	<p>Tempo: <span id="tempoOut"></span></p><br/>
+	<input type="range" min="0" max="14" value="7" id="tempo"><br/>
+	<p>Reverb: <span id="reverbOut"></span></p><br/>
+	<input type="range" min="0" max="3"value="0" id="reverb">
+	<p>Key: <span id="keyOut"></span></p><br/>
+	<input type="range" min="0" max="11"value="12" id="key"><br/><br/></div>
+<!--not used-->
+<span id="info">The first link <br/>syncs the sliders!</span>
+<span id="volumeOut"></span>
+	<input type="range" min="0" max="2"step="0" id="volume"><br/>
+<br/><br/>
+<div class= "marginauto">
+<h1>Shared on Twitter:</h1>
+<a class="twitter-timeline" width="300" data-tweet-limit="13" data-link-color="#9988ff" data-chrome="noheader nofooter transparent" data-dnt="true" href="https://twitter.com/search?q=beepsync" data-widget-id="962103364988358657">Tweets with #BeepSync</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </br>#BeepSync
+</div>
+<script src="js/script.js"></script>
