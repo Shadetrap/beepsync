@@ -52,10 +52,9 @@ form {margin-left:20px;}
 .marginauto{
   margin: 0 auto;
   text-align: center;
-clear:both;
 }
 h1{color:#9988ff;}
-h2{color:#9988ff;}
+h3{color:#9988ff;}
 
 .slider {
     -webkit-appearance: none;
