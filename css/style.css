@@ -169,3 +169,7 @@ html {
 .customisable, .customisable:link, .customisable:visited {
     color: red;
 }
+a {
+    color:white;
+    text-decoration: none;
+}
