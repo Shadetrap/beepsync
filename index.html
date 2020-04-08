@@ -16,42 +16,56 @@
 <div class="bgImage">
 	<div class="wrapper">
 <div class="bgShadow"><br/>
-<h1 class="marginauto shadow" style="overflow-x: hidden; overflow-y: hidden; opacity: 1; ">BeepSync</h1>
+	<a href="http://beepsync.tk/"><h1 class="marginauto shadow htitle">BeepSync</h1></a>
 <br/>
-<div class="box">
-	<button onclick="playSound(this)">play</button>
-	<button onclick="stopSound(this)" class="space2">stop</button><br/>
-	<form><input autofocus autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 1" id="userInput" oninput="beepSend()" class="space2"><br></form>
-	<form><input autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 2" id="userInput2" oninput="beepSend2()"><br></form>
-	<form><input autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 3" id="userInput3" oninput="beepSend3()"><br></form>
-	<form><input autocomplete="off" type="text" name="beepbox link" placeholder="BeepBox link 4" id="userInput4" oninput="beepSend4()"class="space"><br></form>
-
-	<button onclick="rewindSound(this)">rewind</button>
-	<button onclick="forwardSound(this)">forward</button><br/>
-	<button onclick="pauseSound(this)">pause</button>
-	<button onclick="restartSound(this)">refresh</button><br/>
+<div>
+		<div class="box"">
+				<button onclick="playSound(this)" class="">play</button>
+				<button onclick="stopSound(this)" class="space2 ">stop</button><br/>
+				<form><input autocomplete="off" spellcheck="false" type="text" name="beepbox link" placeholder="BeepBox link 1" id="userInput" oninput="beepSend()" class="space2"><br></form>
+				<form><input autocomplete="off" spellcheck="false" type="text" name="beepbox link" placeholder="BeepBox link 2" id="userInput2" oninput="beepSend2()"><br></form>
+				<form><input autocomplete="off" spellcheck="false" type="text" name="beepbox link" placeholder="BeepBox link 3" id="userInput3" oninput="beepSend3()"><br></form>
+				<form><input autocomplete="off" spellcheck="false" type="text" name="beepbox link" placeholder="BeepBox link 4" id="userInput4" oninput="beepSend4()"class="space"><br></form>
+			
+				<button onclick="rewindSound(this)">rewind</button>
+				<button onclick="forwardSound(this)">forward</button><br/>
+				<button onclick="pauseSound(this)">pause</button>
+				<button onclick="restartSound(this)">resync</button><br/>
+			</div>
+			
+			<div style="float:left;">
+				<div class="box" id=hai>
+					<p style="margin-top:10px;">Volume: <span id="volumeOut">g</span></p>
+					<input class="slider" type="range" min="0" max="1" step="0.01" value="1" id="volume">
+					<p>Tempo: <span id="tempoOut"></span></p>
+					<input class="slider" type="range" min="30" max="300" value="7" id="tempo">
+					<p>Reverb: <span id="reverbOut"></span></p>
+					<input class="slider" type="range" min="0" max="3" value="0" id="reverb">
+					<p>Key: <span id="keyOut"></span></p>
+					<input class="slider" type="range" min="0" max="11" value="0" id="key"><br /><br />
+				</div>
+				<div style=" margin:0;text-align:right;bottom:0"><span id="info">The first link</span> <br/><span id="info">syncs the sliders!</span></div>
+			</div>
 </div>
-<div class="box" id=hai>
-	<p style="margin-top:10px;">Tempo: <span id="tempoOut"></span></p><br/>
-	<input class="slider" type="range" min="0" max="14" value="7" id="tempo"><br/>
-	<p>Reverb: <span id="reverbOut"></span></p><br/>
-	<input class="slider" type="range" min="0" max="3"value="0" id="reverb">
-	<p>Key: <span id="keyOut"></span></p><br/>
-	<input class="slider" type="range" min="0" max="11"value="12" id="key"><br/><br/></div>
+
 <!--not used-->
-<span id="info">The first link <br/>syncs the sliders!</span>
-<span id="volumeOut"></span>
-	<input type="range" min="0" max="2"step="0" id="volume"><br/>
 <br/><br/>
-<div class= "marginauto"></br></br></br></br></br>
-<h3>Shared on Twitter:</h3>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </br><a href="https://twitter.com/hashtag/beepsync">#BeepSync</a>
-</div><br/>
+<div class= "marginauto">
+</br>
+<img class="downArrow"
+src="img/dropdown.svg" width="40" />
+<!-- <h3 class="header">Shared on Twitter:</h3> -->
+<br />
+<div class="twitterContainer content">
+<a class="twitter-timeline" data-theme="dark" data-chrome="nofooter noheader transparent noborders noscrollbar" hide_media=true data-aria-polite="assertive" data-cards="hidden" data-src-2x="false" href="https://twitter.com/BeepBoxCo?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<a href="https://twitter.com/hashtag/beepsync" style="margin:0 auto;"></a>
+</div>
+</div>
   <script src='https://www.beepbox.co/beepbox_synth.js'></script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 
-  
+
 
     <script  src="js/index.js"></script>
 
